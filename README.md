@@ -68,9 +68,8 @@ MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB (adjustable)
 
 | Operation | Time |
 |-----------|------|
-| Merge 50MB PDF | ~2-3 seconds |
-| Remove Page | ~1 second |
-| Process 100+ pages | < 5 seconds |
+| Remove PDF | ~1 second |
+| Process 100+ PDF | < 5 seconds |
 
 
 ## 📝 License
