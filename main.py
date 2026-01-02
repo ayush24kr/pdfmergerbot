@@ -3,6 +3,7 @@ import logging
 import tempfile
 from typing import Optional
 import fitz
+from dotenv import load_dotenv
 from pyrogram import Client, filters
 from pyrogram.types import (
     Message,
@@ -11,7 +12,7 @@ from pyrogram.types import (
     InlineKeyboardButton
 )
 
-
+load_dotenv()
 API_ID = os.getenv("API_ID", "YOUR_API_ID")
 API_HASH = os.getenv("API_HASH", "YOUR_API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
